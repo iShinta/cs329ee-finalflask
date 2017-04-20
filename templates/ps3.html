@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>CS329E IBD - Playstation 3</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+</head>
+
+<body>
+  <div id="header">
+    <p><a href={{ url_for('index') }}><img src="/static/images/banner.png" /></a></p>
+  </div>
+  <hr>
+  <div class="navlist">
+    <ul>
+      <li><a href={{ url_for('games') }}>Games</a></li>
+      <li><a href={{ url_for('platforms') }} class="current" style="text-decoration: none;">Platforms</a></li>
+      <li><a href={{ url_for('publishers') }}>Publishers</a></li>
+      <li><a href={{ url_for('about') }}>About Us</a></li>
+    </ul>
+  </div>
+  <hr>
+  <div id="body">
+    <h1>Playstation 3</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Introduction</h2>
+          <p>The PS3 was the successor of the PS2 by manufacturer <a href={{ url_for('nintendo') }}>Nintendo</a>. It was the first console to introduce social gaming services, as well as the first to use Blu-ray discs.</p>
+        </div>
+      </div>
+      <div class="row">
+        <hr>
+        <h2>General</h2>
+        <div class="col-lg-6" style="text-align: center;">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/PS3Versions.png/657px-PS3Versions.png" alt="Image 1" style="height: 400px;">
+        </div>
+        <div class="col-lg-6">
+          <dl class="dl-horizontal">
+            <dt>Manufacturer</dt>
+            <dd><a href={{ url_for('sony') }}>Sony</a></dd>
+            <dt>Generation</dt>
+            <dd>Seventh</dd>
+            <dt>Retail availability</dt>
+            <dd>Japan: November 2006</dd>
+            <dd>North America: November 2006</dd>
+            <dd>Europe: March 2007</dd>
+            <dt>Units sold</dt>
+            <dd>80 million</dd>
+            <dt>Best-selling games</dt>
+            <dd><a href={{ url_for('grandtheftautov') }}>Grand Theft Auto V</a>: 20 million</dd>
+            <dd><a href={{ url_for('granturismo3aspec') }}>Gran Turismo 3</a>: 11.9 million</dd>
+            <dt>Publisher</dt>
+            <dd><a href={{ url_for('taketwointeractive') }}>Take Two Interactive</a></dd>
+            <dd><a href={{ url_for('sony') }}>Sony Computer Entertainment</a></dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <p>CS329E : Project 3 - Group X</p>
+    </div>
+  </footer>
+</body>
+</html>
