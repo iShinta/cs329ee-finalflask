@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>CS329E IBD - Pac-Man</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <!--External srcipt-->
+  <script src="../script.js"></script>
+</head>
+
+<body>
+  <div id="header">
+    <p><a href="/index.html"><img src="/img/banner.png" /></a></p>
+  </div>
+  <hr>
+  <div class="navlist">
+    <ul>
+      <li><a href="/games.html" class="current" style="text-decoration: none;">Games</a></li>
+      <li><a href="/platforms.html">Platforms</a></li>
+      <li><a href="/publishers.html">Publishers</a></li>
+      <li><a href="/about.html">About Us</a></li>
+    </ul>
+  </div>
+  <hr>
+  <div id="body">
+    <h1>Pac-Man</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>General Information</h2>
+          <dl class="dl-horizontal">
+            <dt>Title</dt>
+            <dd>Pac-Man</dd>
+            <dt>Platform</dt>
+            <dd><a href="/platforms/atari-2600.html">Atari</a></dd>
+            <dt>Year of release</dt>
+            <dd>1982</dd>
+            <dt>Genre</dt>
+            <dd>Arcade</dd>
+            <dt>Publisher</dt>
+            <dd><a href="/publishers/atari.html">Atari</a></dd>
+            <dt>Review Score</dt>
+            <dd>N/A</dd>
+          </dl>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <hr>
+          <h2>Pictures</h2>
+          <div class="picture-container">
+            <div class="img-circle circle-container tall">
+              <img src="https://s-media-cache-ak0.pinimg.com/originals/2d/47/50/2d4750847a5a8be7dc7af5c0047f0ee4.jpg" alt="Image 1" onClick="openModal(this)">
+            </div>
+            <div class="img-circle circle-container wide">
+              <img src="http://vignette3.wikia.nocookie.net/thegameroom/images/7/77/Pac-Man_Atari_2600_Gameplay.gif/revision/latest?cb=20131120171606" alt="Image 2" onClick="openModal(this)">
+            </div>
+            <div class="img-circle circle-container wide">
+              <img src="https://i.ytimg.com/vi/sSAMJPze_Zw/maxresdefault.jpg" alt="Image 3" onClick="openModal(this)">
+            </div>
+          </div>
+        </div>
+
+        <!--Modal-->
+        <div id="myModal" class="modal">
+          <span class="modal-close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+          <div class="modal-container">
+            <img id="modal-img" src="">
+          </div>
+        </div>
+        <!--End Modal-->
+
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <hr>
+          <h2>Videos</h2>
+          <div class="picture-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nCPpgt0s70U" frameborder="0" allowfullscreen class="video-centered"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <p>CS329E : Project 3 - Group X</p>
+    </div>
+  </footer>
+</body>
+</html>

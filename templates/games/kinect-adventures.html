@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>CS329E IBD - Kinect Adventures</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+
+  <script src="../script.js"></script>
+</head>
+
+<body>
+  <div id="header">
+    <p><a href="/index.html"><img src="/img/banner.png" /></a></p>
+  </div>
+  <hr>
+  <div class="navlist">
+    <ul>
+      <li><a href="/games.html" class="current" style="text-decoration: none;">Games</a></li>
+      <li><a href="/platforms.html">Platforms</a></li>
+      <li><a href="/publishers.html">Publishers</a></li>
+      <li><a href="/about.html">About Us</a></li>
+    </ul>
+  </div>
+  <hr>
+  <div id="body">
+    <h1>Kinect Adventures!</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>General Information</h2>
+          <dl class="dl-horizontal">
+            <dt>Title</dt>
+            <dd>Kinect Adventures!</dd>
+            <dt>Platform</dt>
+            <dd><a href="/platforms/x360.html">Xbox 360</a></dd>
+            <dt>Year of release</dt>
+            <dd>2010</dd>
+            <dt>Genre</dt>
+            <dd>Adventure/Sports</dd>
+            <dt>Publisher</dt>
+            <dd><a href="/publishers/microsoft-game-studios.html">Microsoft Game Studios</a></dd>
+            <dt>Review score</dt>
+            <dd>6.1/10</dd>
+          </dl>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <hr>
+          <h2>Pictures</h2>
+          <div class="picture-container">
+            <div class="img-circle circle-container wide">
+              <img src="https://static.giantbomb.com/uploads/original/0/7580/1625026-kinect_adventures_game.jpeg" alt="Image 1"  onClick="openModal(this)">
+            </div>
+            <div class="img-circle circle-container wide">
+              <img src="http://3.bp.blogspot.com/-1VwOV0hPUfo/Vq3ApkWGPCI/AAAAAAAAApw/-9ketUgwVlY/s1600/maxresdefault.jpg" alt="Image 2" onClick="openModal(this)" >
+            </div>
+            <div class="img-circle circle-container wide">
+              <img src="http://media1.gameinformer.com/imagefeed/featured/microsoft/kinect/kinectadventures/kinectadventures113-610.jpg" alt="Image 3"  onClick="openModal(this)">
+            </div>
+          </div>
+        </div>
+
+        <!--Modal-->
+        <div id="myModal" class="modal">
+          <span class="modal-close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+          <div class="modal-container">
+            <img id="modal-img" src="">
+          </div>
+        </div>
+        <!--End Modal-->
+
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <hr>
+          <h2>Videos</h2>
+          <div class="picture-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pwBQ7Fyw77c" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <p>CS329E : Project 3 - Group X</p>
+    </div>
+  </footer>
+</body>
+</html>

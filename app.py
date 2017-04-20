@@ -17,9 +17,9 @@ URLs that will call the index() function if running app.py on localhost:
 def index():
 	return render_template('index.html') # located in templates/
 	
-@app.route('/page2')
+@app.route('/about')
 def page2():
-	return render_template('page2.html')
+	return render_template('about.html')
 	
 @app.route('/page3')
 def page3():
