@@ -177,65 +177,65 @@ def worldofwarcraft():
 #platforms
 #PLATFORMS
 
-@app.route('/atari-2600')
+@app.route('/platforms/atari-2600')
 # <<<<<<< HEAD
 def atari2600():
-	return render_template('atari-2600')
+	return render_template('/platforms/atari-2600.html')
 
-@app.route('/gb')
+@app.route('/platforms/gb')
 def gb():
-	return render_template('gb')
-@app.route('/gba')
+	return render_template('/platforms/gb.html')
+@app.route('/platforms/gba')
 def gba():
-	return render_template('gba')
+	return render_template('/platforms/gba.html')
 
-@app.route('/gc')
+@app.route('/platforms/gc')
 def gc():
-	return render_template('gc')
+	return render_template('/platforms/gc.html')
 
-@app.route('/nes')
+@app.route('/platforms/nes')
 def nes():
-	return render_template('nes')
+	return render_template('/platforms/nes.html')
 
-@app.route('/pc')
+@app.route('/platforms/pc')
 def pc():
-	return render_template('pc')
+	return render_template('/platforms/pc.html')
 
-@app.route('/ps')
+@app.route('/platforms/ps')
 def ps():
-	return render_template('ps')
+	return render_template('/platforms/ps.html')
 
-@app.route('/ps2')
+@app.route('/platforms/ps2')
 def ps2():
-	return render_template('ps2')
+	return render_template('/platforms/ps2.html')
 
-@app.route('/ps3')
+@app.route('/platforms/ps3')
 def ps3():
-	return render_template('ps3')
+	return render_template('/platforms/ps3.html')
 
-@app.route('/ps4')
+@app.route('/platforms/ps4')
 def ps4():
-	return render_template('ps4')
+	return render_template('/platforms/ps4.html')
 
-@app.route('/snes')
+@app.route('/platforms/snes')
 def snes():
-	return render_template('snes')
+	return render_template('/platforms/snes.html')
 
-@app.route('/wii')
+@app.route('/platforms/wii')
 def wii():
-	return render_template('wii')
+	return render_template('/platforms/wii.html')
 
-@app.route('/wiiu')
+@app.route('/platforms/wiiu')
 def wiiu():
-	return render_template('wiiu')
+	return render_template('/platforms/wiiu.html')
 
-@app.route('/x360')
+@app.route('/platforms/x360')
 def x360():
-	return render_template('x360')
+	return render_template('/platforms/x360.html')
 
-@app.route('/xone')
+@app.route('/platforms/xone')
 def xone():
-	return render_template('xone')
+	return render_template('/platforms/xone.html')
 # =======
 # def grandturismo3aspec():
 # 	return render_template('atari-2600')
@@ -298,54 +298,54 @@ def xone():
 
 #PUBLISHERS
 
-@app.route('/activision')
+@app.route('/publishers/activision')
 # <<<<<<< HEAD
 def activision():
-	return render_template('activision')
+	return render_template('/publishers/activision.html')
 
-@app.route('/atari')
+@app.route('/publishers/atari')
 def atari():
-	return render_template('atari')
+	return render_template('/publishers/atari.html')
 
-@app.route('/bethesda')
+@app.route('/publishers/bethesda')
 def bethesda():
-	return render_template('bethesda')
+	return render_template('/publishers/bethesda.html')
 
-@app.route('/capcom')
+@app.route('/publishers/capcom')
 def capcom():
-	return render_template('capcom')
+	return render_template('/publishers/capcom.html')
 
-@app.route('/ea')
+@app.route('/publishers/ea')
 def ea():
-	return render_template('ea')
+	return render_template('/publishers/ea.html')
 
-@app.route('/microsoft-game-studios')
+@app.route('/publishers/microsoft-game-studios')
 def microsoftgamestudios():
-	return render_template('microsoft-game-studios')
+	return render_template('/publishers/microsoft-game-studios.html')
 
-@app.route('/nintendo')
+@app.route('/publishers/nintendo')
 def nintendo():
-	return render_template('nintendo')
+	return render_template('/publishers/nintendo.html')
 
-@app.route('/sega')
+@app.route('/publishers/sega')
 def sega():
-	return render_template('sega')
+	return render_template('/publishers/sega.html')
 
-@app.route('/sony')
+@app.route('/publishers/sony')
 def sony():
-	return render_template('sony')
+	return render_template('/publishers/sony.html')
 
-@app.route('/squaresoft')
+@app.route('/publishers/squaresoft')
 def squaresoft():
-	return render_template('squaresoft')
+	return render_template('/publishers/squaresoft.html')
 
-@app.route('/take-two-interactive')
+@app.route('/publishers/take-two-interactive')
 def taketwointeractive():
-	return render_template('take-two-interactive')
+	return render_template('/publishers/take-two-interactive.html')
 
-@app.route('/ubisoft')
+@app.route('/publishers/ubisoft')
 def ubisoft():
-	return render_template('ubisoft')
+	return render_template('/publishers/ubisoft.html')
 
 # =======
 # def grandturismo3aspec():
