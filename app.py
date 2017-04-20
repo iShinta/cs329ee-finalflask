@@ -38,147 +38,147 @@ def publishers():
 # SUB PAGES
 
 #games below
-@app.route('/call-of-duty-modern-warfare-3')
+@app.route('/games/call-of-duty-modern-warfare-3')
 def callofdutymodernwarfare3():
-	return render_template('call-of-duty-modern-warfare-3.html')
+	return render_template('/games/call-of-duty-modern-warfare-3.html')
 
-@app.route('/fifa-2016')
+@app.route('/games/fifa-2016')
 def fifa2016():
-	return render_template('fifa-2016.html')
+	return render_template('/games/fifa-2016.html')
 
-@app.route('/final-fantasy-viii')
+@app.route('/games/final-fantasy-viii')
 def finalfantasyviii():
-	return render_template('final-fantasy-viii.html')
+	return render_template('/games/final-fantasy-viii.html')
 
-@app.route('/grand-theft-auto-v')
+@app.route('/games/grand-theft-auto-v')
 def grandtheftautov():
-	return render_template('grand-theft-auto-v.html')
+	return render_template('/games/grand-theft-auto-v.html')
 
-@app.route('/grand-turismo-3-a-spec')
+@app.route('/games/grand-turismo-3-a-spec')
 def grandturismo3aspec():
-	return render_template('grand-turismo-3-a-spec')
+	return render_template('/games/grand-turismo-3-a-spec.html')
 
-@app.route('/just-dance-3')
+@app.route('/games/just-dance-3')
 def justdance3():
-	return render_template('just-dance-3')
+	return render_template('/games/just-dance-3.html')
 
-@app.route('/kinect-adventures')
+@app.route('/games/kinect-adventures')
 def kinectadventures():
-	return render_template('kinect-adventures')
+	return render_template('/games/kinect-adventures.html')
 
-@app.route('/mario-and-sonic-at-the-olympic-games')
+@app.route('/games/mario-and-sonic-at-the-olympic-games')
 def marioandsonicattheolympicgames():
-	return render_template('mario-and-sonic-at-the-olympic-games')
+	return render_template('/games/mario-and-sonic-at-the-olympic-games.html')
 
-@app.route('/mario-kart-8')
-<<<<<<< HEAD
+@app.route('/games/mario-kart-8')
+# <<<<<<< HEAD
 def mariokart8():
-	return render_template('mario-kart-8')
+	return render_template('/games/mario-kart-8.html')
 
-@app.route('/mario-kart-wii')
+@app.route('/games/mario-kart-wii')
 def mariokartwii():
-	return render_template('mario-kart-wii')
+	return render_template('/games/mario-kart-wii.html')
 
-@app.route('/pac-man')
+@app.route('/games/pac-man')
 def pacman():
-	return render_template('pac-man')
+	return render_template('/games/pac-man.html')
 
-@app.route('/pokemon-emerald-version')
+@app.route('/games/pokemon-emerald-version')
 def pokemonemeraldversion():
-	return render_template('pokemon-emerald-version')
+	return render_template('/games/pokemon-emerald-version.html')
 
-@app.route('/pokemon-red-pokemon-blue')
+@app.route('/games/pokemon-red-pokemon-blue')
 def pokemonredpokemonblue():
-	return render_template('pokemon-red-pokemon-blue')
+	return render_template('/games/pokemon-red-pokemon-blue.html')
 
-@app.route('/street-fighter-ii-the-world-warrior')
+@app.route('/games/street-fighter-ii-the-world-warrior')
 def streetfighteriitheworldwarrior():
-	return render_template('street-fighter-ii-the-world-warrior')
+	return render_template('/games/street-fighter-ii-the-world-warrior.html')
 
-@app.route('/super-mario-bros')
+@app.route('/games/super-mario-bros')
 def supermariobros():
-	return render_template('super-mario-bros')
+	return render_template('/games/super-mario-bros.html')
 	
-@app.route('/super-smash-bros-melee')
+@app.route('/games/super-smash-bros-melee')
 def supersmashbrosmelee():
-	return render_template('super-smash-bros-melee')
+	return render_template('/games/super-smash-bros-melee.html')
 
-@app.route('/the-elder-scrolls-v-skyrim')
+@app.route('/games/the-elder-scrolls-v-skyrim')
 def theelderscrollsvskyrim():
-	return render_template('the-elder-scrolls-v-skyrim')
+	return render_template('/games/the-elder-scrolls-v-skyrim.html')
 
-@app.route('/the-legend-of-zelda')
+@app.route('/games/the-legend-of-zelda')
 def thelegendofzelda():
-	return render_template('the-legend-of-zelda')
+	return render_template('/games/the-legend-of-zelda.html')
 	
-@app.route('/wii-sports')
+@app.route('/games/wii-sports')
 def wiisports():
-	return render_template('wii-sports')
+	return render_template('/games/wii-sports.html')
 
-@app.route('/wii-sports-resort')
+@app.route('/games/wii-sports-resort')
 def wiisportsresort():
-	return render_template('wii-sports-resort')
+	return render_template('/games/wii-sports-resort.html')
 
-@app.route('/world-of-warcraft')
+@app.route('/games/world-of-warcraft')
 def worldofwarcraft():
-=======
-def grandturismo3aspec():
-	return render_template('mario-kart-8')
+	return render_template('/games/world-of-warcraft.html')
+# =======
+# def grandturismo3aspec():
+# 	return render_template('mario-kart-8')
 
-@app.route('/mario-kart-wii')
-def grandturismo3aspec():
-	return render_template('mario-kart-wii')
+# @app.route('/mario-kart-wii')
+# def grandturismo3aspec():
+# 	return render_template('mario-kart-wii')
 
-@app.route('/pac-man')
-def grandturismo3aspec():
-	return render_template('pac-man')
+# @app.route('/pac-man')
+# def grandturismo3aspec():
+# 	return render_template('pac-man')
 
-@app.route('/pokemon-emerald-version')
-def grandturismo3aspec():
-	return render_template('pokemon-emerald-version')
+# @app.route('/pokemon-emerald-version')
+# def grandturismo3aspec():
+# 	return render_template('pokemon-emerald-version')
 
-@app.route('/pokemon-red-pokemon-blue')
-def grandturismo3aspec():
-	return render_template('pokemon-red-pokemon-blue')
+# @app.route('/pokemon-red-pokemon-blue')
+# def grandturismo3aspec():
+# 	return render_template('pokemon-red-pokemon-blue')
 
-@app.route('/street-fighter-ii-the-world-warrior')
-def grandturismo3aspec():
-	return render_template('street-fighter-ii-the-world-warrior')
+# @app.route('/street-fighter-ii-the-world-warrior')
+# def grandturismo3aspec():
+# 	return render_template('street-fighter-ii-the-world-warrior')
 
-@app.route('/super-mario-bros')
-def grandturismo3aspec():
-	return render_template('super-mario-bros')
+# @app.route('/super-mario-bros')
+# def grandturismo3aspec():
+# 	return render_template('super-mario-bros')
 	
-@app.route('/super-smash-bros-melee')
-def grandturismo3aspec():
-	return render_template('super-smash-bros-melee')
+# @app.route('/super-smash-bros-melee')
+# def grandturismo3aspec():
+# 	return render_template('super-smash-bros-melee')
 
-@app.route('/the-elder-scrolls-v-skyrim')
-def grandturismo3aspec():
-	return render_template('the-elder-scrolls-v-skyrim')
+# @app.route('/the-elder-scrolls-v-skyrim')
+# def grandturismo3aspec():
+# 	return render_template('the-elder-scrolls-v-skyrim')
 
-@app.route('/the-legend-of-zelda')
-def grandturismo3aspec():
-	return render_template('the-legend-of-zelda')
+# @app.route('/the-legend-of-zelda')
+# def grandturismo3aspec():
+# 	return render_template('the-legend-of-zelda')
 	
-@app.route('/wii-sports')
-def grandturismo3aspec():
-	return render_template('wii-sports')
+# @app.route('/wii-sports')
+# def grandturismo3aspec():
+# 	return render_template('wii-sports')
 
-@app.route('/wii-sports-resort')
-def grandturismo3aspec():
-	return render_template('wii-sports-resort')
+# @app.route('/wii-sports-resort')
+# def grandturismo3aspec():
+# 	return render_template('wii-sports-resort')
 
-@app.route('/world-of-warcraft')
-def grandturismo3aspec():
->>>>>>> origin/master
-	return render_template('world-of-warcraft')
+# @app.route('/world-of-warcraft')
+# def grandturismo3aspec():
+# >>>>>>> origin/master
 	
 #platforms
 #PLATFORMS
 
 @app.route('/atari-2600')
-<<<<<<< HEAD
+# <<<<<<< HEAD
 def atari2600():
 	return render_template('atari-2600')
 
@@ -235,70 +235,71 @@ def x360():
 
 @app.route('/xone')
 def xone():
-=======
-def grandturismo3aspec():
-	return render_template('atari-2600')
-
-@app.route('/gb')
-def grandturismo3aspec():
-	return render_template('gb')
-@app.route('/gba')
-def grandturismo3aspec():
-	return render_template('gba')
-
-@app.route('/gc')
-def grandturismo3aspec():
-	return render_template('gc')
-
-@app.route('/nes')
-def grandturismo3aspec():
-	return render_template('nes')
-
-@app.route('/pc')
-def grandturismo3aspec():
-	return render_template('pc')
-
-@app.route('/ps')
-def grandturismo3aspec():
-	return render_template('ps')
-
-@app.route('/ps2')
-def grandturismo3aspec():
-	return render_template('ps2')
-
-@app.route('/ps3')
-def grandturismo3aspec():
-	return render_template('ps3')
-
-@app.route('/ps4')
-def grandturismo3aspec():
-	return render_template('ps4')
-
-@app.route('/snes')
-def grandturismo3aspec():
-	return render_template('snes')
-
-@app.route('/wii')
-def grandturismo3aspec():
-	return render_template('wii')
-
-@app.route('/wiiu')
-def grandturismo3aspec():
-	return render_template('wiiu')
-
-@app.route('/x360')
-def grandturismo3aspec():
-	return render_template('x360')
-
-@app.route('/xone')
-def grandturismo3aspec():
->>>>>>> origin/master
 	return render_template('xone')
+# =======
+# def grandturismo3aspec():
+# 	return render_template('atari-2600')
+
+# @app.route('/gb')
+# def grandturismo3aspec():
+# 	return render_template('gb')
+# @app.route('/gba')
+# def grandturismo3aspec():
+# 	return render_template('gba')
+
+# @app.route('/gc')
+# def grandturismo3aspec():
+# 	return render_template('gc')
+
+# @app.route('/nes')
+# def grandturismo3aspec():
+# 	return render_template('nes')
+
+# @app.route('/pc')
+# def grandturismo3aspec():
+# 	return render_template('pc')
+
+# @app.route('/ps')
+# def grandturismo3aspec():
+# 	return render_template('ps')
+
+# @app.route('/ps2')
+# def grandturismo3aspec():
+# 	return render_template('ps2')
+
+# @app.route('/ps3')
+# def grandturismo3aspec():
+# 	return render_template('ps3')
+
+# @app.route('/ps4')
+# def grandturismo3aspec():
+# 	return render_template('ps4')
+
+# @app.route('/snes')
+# def grandturismo3aspec():
+# 	return render_template('snes')
+
+# @app.route('/wii')
+# def grandturismo3aspec():
+# 	return render_template('wii')
+
+# @app.route('/wiiu')
+# def grandturismo3aspec():
+# 	return render_template('wiiu')
+
+# @app.route('/x360')
+# def grandturismo3aspec():
+# 	return render_template('x360')
+
+# @app.route('/xone')
+# def grandturismo3aspec():
+# >>>>>>> origin/master
+
 
 #PUBLISHERS
 
 @app.route('/activision')
-<<<<<<< HEAD
+# <<<<<<< HEAD
 def activision():
 	return render_template('activision')
 
@@ -344,55 +345,55 @@ def taketwointeractive():
 
 @app.route('/ubisoft')
 def ubisoft():
-=======
-def grandturismo3aspec():
-	return render_template('activision')
-
-@app.route('/atari')
-def grandturismo3aspec():
-	return render_template('atari')
-
-@app.route('/bethesda')
-def grandturismo3aspec():
-	return render_template('bethesda')
-
-@app.route('/capcom')
-def grandturismo3aspec():
-	return render_template('capcom')
-
-@app.route('/ea')
-def grandturismo3aspec():
-	return render_template('ea')
-
-@app.route('/microsoft-game-studios')
-def grandturismo3aspec():
-	return render_template('microsoft-game-studios')
-
-@app.route('/nintendo')
-def grandturismo3aspec():
-	return render_template('nintendo')
-
-@app.route('/sega')
-def grandturismo3aspec():
-	return render_template('sega')
-
-@app.route('/sony')
-def grandturismo3aspec():
-	return render_template('sony')
-
-@app.route('/squaresoft')
-def grandturismo3aspec():
-	return render_template('squaresoft')
-
-@app.route('/take-two-interactive')
-def grandturismo3aspec():
-	return render_template('take-two-interactive')
-
-@app.route('/ubisoft')
-def grandturismo3aspec():
->>>>>>> origin/master
 	return render_template('ubisoft')
 
+# =======
+# def grandturismo3aspec():
+# 	return render_template('activision')
+
+# @app.route('/atari')
+# def grandturismo3aspec():
+# 	return render_template('atari')
+
+# @app.route('/bethesda')
+# def grandturismo3aspec():
+# 	return render_template('bethesda')
+
+# @app.route('/capcom')
+# def grandturismo3aspec():
+# 	return render_template('capcom')
+
+# @app.route('/ea')
+# def grandturismo3aspec():
+# 	return render_template('ea')
+
+# @app.route('/microsoft-game-studios')
+# def grandturismo3aspec():
+# 	return render_template('microsoft-game-studios')
+
+# @app.route('/nintendo')
+# def grandturismo3aspec():
+# 	return render_template('nintendo')
+
+# @app.route('/sega')
+# def grandturismo3aspec():
+# 	return render_template('sega')
+
+# @app.route('/sony')
+# def grandturismo3aspec():
+# 	return render_template('sony')
+
+# @app.route('/squaresoft')
+# def grandturismo3aspec():
+# 	return render_template('squaresoft')
+
+# @app.route('/take-two-interactive')
+# def grandturismo3aspec():
+# 	return render_template('take-two-interactive')
+
+# @app.route('/ubisoft')
+# def grandturismo3aspec():
+# >>>>>>> origin/master
 	
 if __name__ == '__main__':
 	app.run() # Run application
