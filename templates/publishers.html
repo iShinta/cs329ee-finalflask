@@ -28,15 +28,15 @@ src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap4.min.js"></scrip
 
 <body>
   <div id="header">
-    <p><a href="/index.html"><img src="/img/banner.png" /></a></p>
+    <p><a href={{ url_for('index') }}><img src="/img/banner.png" /></a></p>
   </div>
   <hr>
   <div class="navlist">
     <ul>
-      <li><a href="/games.html">Games</a></li>
-      <li><a href="/platforms.html">Platforms</a></li>
-      <li><a href="/publishers.html" class="current" style="text-decoration: none;">Publishers</a></li>
-      <li><a href="/about.html">About Us</a></li>
+      <li><a href={{ url_for('games') }}>Games</a></li>
+      <li><a href={{ url_for('platforms') }}>Platforms</a></li>
+      <li><a href={{ url_for('publishers') }} class="current" style="text-decoration: none;">Publishers</a></li>
+      <li><a href={{ url_for('about') }}>About Us</a></li>
     </ul>
   </div>
   <hr>
@@ -54,84 +54,84 @@ src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap4.min.js"></scrip
       </thead>
       <tbody>
         <tr>
-          <td> <a href="publishers/activision.html">Activision</a></td>
+          <td> <a href={{ url_for('activision') }}>Activision</a></td>
           <td> Santa Monica, California, U.S. </td>
           <td> 1979 </td>
           <td> $4.664 billion </td>
           <td> <a href="http://activision.com">activision.com</a> </td>
         </tr>
         <tr>
-          <td> <a href="publishers/atari.html">Atari</a></td>
+          <td> <a href={{ url_for('atari') }}>Atari</a></td>
           <td> New York City, New York, U.S. </td>
           <td> 1972 </td>
           <td> &euro;7.6 million </td>
           <td> <a href="http://atari.com">atari.com</a> </td>
         </tr>
         <tr>
-          <td> <a href="publishers/bethesda.html">Bethesda Softworks</a></td>
+          <td> <a href={{ url_for('bethesda') }}>Bethesda Softworks</a></td>
           <td> Rockville, Maryland, U.S. </td>
           <td> 1986 </td>
           <td> $9,550 million </td>
           <td> <a href="http://bethsoft.com">bethsoft.com</a> </td>
         </tr>
         <tr>
-          <td> <a href="publishers/capcom.html">Capcom</a></td>
+          <td> <a href={{ url_for('capcom') }}>Capcom</a></td>
           <td> Osaka, Japan </td>
           <td> 1983 </td>
           <td> ¥25.9 billion </td>
           <td> <a href="http://www.capcom.com">capcom.com</a> </td>
         </tr>
         <tr>
-          <td> <a href="publishers/ea.html">Electronic Arts</a></td>
+          <td> <a href={{ url_for('ea') }}>Electronic Arts</a></td>
           <td> Redwood City, California, U.S. </td>
           <td> 1982 </td>
           <td> $4.396 billion </td>
           <td> <a href="http://ea.com">ea.com</a> </td>
         </tr>
         <tr>
-          <td> <a href="publishers/microsoft-game-studios.html">Microsoft Game Studios</a> </td>
+          <td> <a href={{ url_for('microsoftgamestudios') }}>Microsoft Game Studios</a> </td>
           <td> Redmond, Washington, U.S. </td>
           <td> 2002 </td>
           <td> Unreleased </td>
           <td> <a href="http://microsoftstudios.com">microsoftstudios.com</a> </td>
         </tr>
         <tr>
-          <td> <a href="publishers/nintendo.html">Nintendo</a> </td>
+          <td> <a href={{ url_for('nintendo') }}>Nintendo</a> </td>
           <td> Kyoto, Japan </td>
           <td> 1889 </td>
           <td> ¥504.459 billion </td>
           <td> <a href="http://nintendo.com">nintendo.com</a> </td>
         </tr>
         <tr>
-          <td> <a href="publishers/sega.html">Sega</a> </td>
+          <td> <a href={{ url_for('sega') }}>Sega</a> </td>
           <td> Tokyo, Japan </td>
           <td> 1960 </td>
           <td> ¥154.2 billion </td>
           <td> <a href="http://www.sega.com/">sega.com</a> </td>
         </tr>
         <tr>
-          <td> <a href="publishers/sony.html">Sony Computer Entertainment</a> </td>
+          <td> <a href={{ url_for('sony') }}>Sony Computer Entertainment</a> </td>
           <td> San Mateo, California, U.S. </td>
           <td> 1993 </td>
           <td> ¥11,567 billion </td>
           <td> <a href="http://www.sie.com/en/index.html">sie.com</a> </td>
         </tr>
         <tr>
-          <td> <a href="publishers/squaresoft.html">SquareSoft</a> </td>
+          <td> <a href={{ url_for('squaresoft') }}>SquareSoft</a> </td>
           <td> Tokyo, Japan </td>
           <td> 1983 </td>
           <td> ¥214.101 billion </td>
           <td> <a href="http://www.square-enix.com">square-enix.com</a> </td>
         </tr>
         <tr>
-          <td> <a href="publishers/take-two-interactive.html">Take Two Interactive</a> </td>
+          <td> <a href={{ url_for('taketwointeractive') }}>Take Two Interactive</a> </td>
           <td> New York City, New York, U.S. </td>
           <td> 1993 </td>
           <td> $1,413.698 million </td>
           <td> <a href="http://take2games.com">take2games.com</a> </td>
         </tr>
         <tr>
-          <td> <a href="publishers/ubisoft.html">Ubisoft</a> </td>
+          <td> <a href={{ url_for('ubisoft') }}>Ubisoft</a> </td>
           <td> Rennes, France </td>
           <td> 1986 </td>
           <td> €2,984.786 million </td>

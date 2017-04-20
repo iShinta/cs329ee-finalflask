@@ -13,15 +13,15 @@
 
 <body>
   <div id="header">
-    <p><a href="/index.html"><img src="/img/banner.png" /></a></p>
+    <p><a href={{ url_for('index') }}><img src="/img/banner.png" /></a></p>
   </div>
   <hr>
   <div class="navlist">
     <ul>
-      <li><a href="/games.html" class="current" style="text-decoration: none;">Games</a></li>
-      <li><a href="/platforms.html">Platforms</a></li>
-      <li><a href="/publishers.html">Publishers</a></li>
-      <li><a href="/about.html">About Us</a></li>
+      <li><a href={{ url_for('games') }} class="current" style="text-decoration: none;">Games</a></li>
+      <li><a href={{ url_for('platforms') }}>Platforms</a></li>
+      <li><a href={{ url_for('publishers') }}>Publishers</a></li>
+      <li><a href={{ url_for('about') }}>About Us</a></li>
     </ul>
   </div>
   <hr>
@@ -35,13 +35,13 @@
             <dt>Title</dt>
             <dd>Wii Sports Resort</dd>
             <dt>Platform</dt>
-            <dd><a href="/platforms/wii.html">Wii</a></dd>
+            <dd><a href={{ url_for('wii') }}>Wii</a></dd>
             <dt>Year of release</dt>
             <dd>2006</dd>
             <dt>Genre</dt>
             <dd>Sports</dd>
             <dt>Publisher</dt>
-            <dd><a href="/publishers/nintendo.html">Nintendo</a></dd>
+            <dd><a href={{ url_for('nintendo') }}>Nintendo</a></dd>
             <dt>Review score</dt>
             <dd>8.3/10</dd>
           </dl>

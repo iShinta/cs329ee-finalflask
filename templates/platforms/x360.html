@@ -11,15 +11,15 @@
 
 <body>
   <div id="header">
-    <p><a href="/index.html"><img src="/img/banner.png" /></a></p>
+    <p><a href={{ url_for('index') }}><img src="/img/banner.png" /></a></p>
   </div>
   <hr>
   <div class="navlist">
     <ul>
-      <li><a href="/games.html">Games</a></li>
-      <li><a href="/platforms.html" class="current" style="text-decoration: none;">Platforms</a></li>
-      <li><a href="/publishers.html">Publishers</a></li>
-      <li><a href="/about.html">About Us</a></li>
+      <li><a href={{ url_for('games') }}>Games</a></li>
+      <li><a href={{ url_for('platforms') }} class="current" style="text-decoration: none;">Platforms</a></li>
+      <li><a href={{ url_for('publishers') }}>Publishers</a></li>
+      <li><a href={{ url_for('about') }}>About Us</a></li>
     </ul>
   </div>
   <hr>
@@ -41,7 +41,7 @@
         <div class="col-lg-6">
           <dl class="dl-horizontal">
             <dt>Manufacturer</dt>
-            <dd><a href="/publishers/microsoft-game-studios">Microsoft</a></dd>
+            <dd><a href={{ url_for('microsoftgamestudios') }}>Microsoft</a></dd>
             <dt>Generation</dt>
             <dd>Seventh</dd>
             <dt>Retail availability</dt>
@@ -51,11 +51,11 @@
             <dt>Units sold</dt>
             <dd>84 million</dd>
             <dt>Best-selling games</dt>
-            <dd><a href="/games/kinect-adventures.html">Kinect Adventures</a>: 24 million</dd>
-            <dd><a href="/games/grand-theft-auto-v.html">Grand Theft Auto V</a>: 17.8 million</p></dd>
+            <dd><a href={{ url_for('kinectadventures') }}>Kinect Adventures</a>: 24 million</dd>
+            <dd><a href={{ url_for('grandtheftautov') }}>Grand Theft Auto V</a>: 17.8 million</p></dd>
             <dt>Publisher</dt>
-            <dd><a href="/publishers/microsoft-game-studios.html">Microsoft Game Studios</a></dd>
-            <dd><a href="/publishers/bethesda.html">Bethesda Softworks</a></dd>
+            <dd><a href={{ url_for('microsoftgamestudios') }}>Microsoft Game Studios</a></dd>
+            <dd><a href={{ url_for('bethesda') }}>Bethesda Softworks</a></dd>
           </dl>
         </div>
       </div>

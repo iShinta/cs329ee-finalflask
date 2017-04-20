@@ -13,15 +13,15 @@
 
 <body>
   <div id="header">
-    <p><a href="/index.html"><img src="/img/banner.png" /></a></p>
+    <p><a href={{ url_for('index') }}><img src="/img/banner.png" /></a></p>
   </div>
   <hr>
   <div class="navlist">
     <ul>
-      <li><a href="/games.html" class="current" style="text-decoration: none;">Games</a></li>
-      <li><a href="/platforms.html">Platforms</a></li>
-      <li><a href="/publishers.html">Publishers</a></li>
-      <li><a href="/about.html">About Us</a></li>
+      <li><a href={{ url_for('games') }} class="current" style="text-decoration: none;">Games</a></li>
+      <li><a href={{ url_for('platforms') }}>Platforms</a></li>
+      <li><a href={{ url_for('publishers') }}>Publishers</a></li>
+      <li><a href={{ url_for('about') }}>About Us</a></li>
     </ul>
   </div>
   <hr>
@@ -35,14 +35,14 @@
             <dt>Title</dt>
             <dd>World of Warcraft</dd>
             <dt>Platform</dt>
-            <dd><a href="/platforms/pc.html">PC</a></dd>
+            <dd><a href={{ url_for('pc') }}>PC</a></dd>
             <dt>Year of release</dt>
             <dd>2004<sup><a href="#" data-toggle="tooltip" title="Australia, NA">&#x2726;</a></sup></dd>
             <dd>2005<sup><a href="#" data-toggle="tooltip" title="Europe">&#x2726;</a></sup></dd>
             <dt>Genre</dt>
             <dd>Massively multiplayer online role-playing</dd>
             <dt>Publisher</dt>
-            <dd><a href="/publishers/activision.html">Blizzard Entertainment</a></dd>
+            <dd><a href={{ url_for('activision') }}>Blizzard Entertainment</a></dd>
             <dt>Review Score</dt>
             <dd>9.2/10</dd>
           </dl>

@@ -11,15 +11,15 @@
 
 <body>
   <div id="header">
-    <p><a href="/index.html"><img src="/img/banner.png" /></a></p>
+    <p><a href={{ url_for('index') }}><img src="/img/banner.png" /></a></p>
   </div>
   <hr>
   <div class="navlist">
     <ul>
-      <li><a href="/games.html">Games</a></li>
-      <li><a href="/platforms.html" class="current" style="text-decoration: none;">Platforms</a></li>
-      <li><a href="/publishers.html">Publishers</a></li>
-      <li><a href="/about.html">About Us</a></li>
+      <li><a href={{ url_for('games') }}>Games</a></li>
+      <li><a href={{ url_for('platforms') }} class="current" style="text-decoration: none;">Platforms</a></li>
+      <li><a href={{ url_for('publishers') }}>Publishers</a></li>
+      <li><a href={{ url_for('about') }}>About Us</a></li>
     </ul>
   </div>
   <hr>
@@ -29,7 +29,7 @@
       <div class="row">
         <div class="col-lg-12">
           <h2>Introduction</h2>
-          <p>The WiiU was released in November 2012 by <a href="/publishers/nintendo.html">Nintendo</a>. It was the first Nintendo console to support HD graphics, and a embedded touchscreen in the gamepad.</p>
+          <p>The WiiU was released in November 2012 by <a href={{ url_for('nintendo') }}>Nintendo</a>. It was the first Nintendo console to support HD graphics, and a embedded touchscreen in the gamepad.</p>
         </div>
       </div>
       <div class="row">
@@ -41,7 +41,7 @@
         <div class="col-lg-6">
           <dl class="dl-horizontal">
             <dt>Manufacturer</dt>
-            <dd><a href="/publishers/nintendo.html">Nintendo</a></dd>
+            <dd><a href={{ url_for('nintendo') }}>Nintendo</a></dd>
             <dt>Generation</dt>
             <dd>Eighth</dd>
             <dt>Retail availability</dt>
@@ -51,9 +51,9 @@
             <dt>Units sold</dt>
             <dd>13.56 million</dd>
             <dt>Best-selling games</dt>
-            <dd><a href="/games/mario-kart-8.html">Mario Kart 8</a>: 8.26 million</dd>
+            <dd><a href={{ url_for('mariokart8') }}>Mario Kart 8</a>: 8.26 million</dd>
             <dt>Publisher</dt>
-            <dd><a href="/publishers/nintendo.html">Nintendo</a></dd>
+            <dd><a href={{ url_for('nintendo') }}>Nintendo</a></dd>
           </dl>
         </div>
       </div>

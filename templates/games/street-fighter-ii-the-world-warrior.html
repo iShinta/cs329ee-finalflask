@@ -13,15 +13,15 @@
 
 <body>
   <div id="header">
-    <p><a href="/index.html"><img src="/img/banner.png" /></a></p>
+    <p><a href={{ url_for('index') }}><img src="/img/banner.png" /></a></p>
   </div>
   <hr>
   <div class="navlist">
     <ul>
-      <li><a href="/games.html" class="current" style="text-decoration: none;">Games</a></li>
-      <li><a href="/platforms.html">Platforms</a></li>
-      <li><a href="/publishers.html">Publishers</a></li>
-      <li><a href="/about.html">About Us</a></li>
+      <li><a href={{ url_for('games') }} class="current" style="text-decoration: none;">Games</a></li>
+      <li><a href={{ url_for('platforms') }}>Platforms</a></li>
+      <li><a href={{ url_for('publishers') }}>Publishers</a></li>
+      <li><a href={{ url_for('about') }}>About Us</a></li>
     </ul>
   </div>
   <hr>
@@ -36,14 +36,14 @@
             <dd>Street Fighter II: The World Warrior</dd>
             <dt>Platform</dt>
             <dd>Arcade</dd>
-            <dd><a href="/platforms/snes.html">SNES</a></dd>
+            <dd><a href={{ url_for('snes') }}>SNES</a></dd>
             <dt>Year of release</dt>
             <dd>1991<sup><a href="#" data-toggle="tooltip" title="Arcade">&#x2726;</a></sup></dd>
             <dd>1992<sup><a href="#" data-toggle="tooltip" title="SNES">&#x2726;</a></sup></dd>
             <dt>Genre</dt>
             <dd>Fighting</dd>
             <dt>Publisher</dt>
-            <dd><a href="/publishers/capcom.html">Capcom</a></dd>
+            <dd><a href={{ url_for('capcom') }}>Capcom</a></dd>
             <dt>Review Score</dt>
             <dd>9.0/10</dd>
           </dl>

@@ -10,16 +10,16 @@
 </head>
 
 <body>
-  <div id="header">
-    <p><a href="/index.html"><img src="/img/banner.png" /></a></p>
+   <div id="header">
+    <p><a href={{ url_for('index') }}><img src="/img/banner.png" /></a></p>
   </div>
   <hr>
   <div class="navlist">
     <ul>
-      <li><a href="/games.html">Games</a></li>
-      <li><a href="/platforms.html">Platforms</a></li>
-      <li><a href="/publishers.html" class="current" style="text-decoration: none;">Publishers</a></li>
-      <li><a href="/about.html">About Us</a></li>
+      <li><a href={{ url_for('games') }}>Games</a></li>
+      <li><a href={{ url_for('platforms') }}>Platforms</a></li>
+      <li><a href={{ url_for('publishers') }} class="current" style="text-decoration: none;">Publishers</a></li>
+      <li><a href={{ url_for('about') }}>About Us</a></li>
     </ul>
   </div>
   <hr>
@@ -44,9 +44,9 @@
             <dd>2K Games</dd>
             <dd>Rockstar Games</dd>
             <dt>Platform</dt>
-            <dd><a href="/platforms/ps3.html">PS3</a></dd>
+            <dd><a href={{ url_for('ps3') }}>PS3</a></dd>
             <dt>Games</dt>
-            <dd><a href="/games/grand-theft-auto-v.html">Grand Theft Auto V</a></dd>
+            <dd><a href={{ url_for('grandtheftautov') }}>Grand Theft Auto V</a></dd>
           </dl>
         </div>
       </div>
