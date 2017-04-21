@@ -54,8 +54,8 @@ def finalfantasyviii():
 def grandtheftautov():
 	return render_template('/games/grand-theft-auto-v.html')
 
-@app.route('/games/grand-turismo-3-a-spec')
-def grandturismo3aspec():
+@app.route('/games/gran-turismo-3-a-spec')
+def granturismo3aspec():
 	return render_template('/games/grand-turismo-3-a-spec.html')
 
 @app.route('/games/just-dance-3')
